@@ -2088,6 +2088,10 @@ a.btn {
   transition: color .25s;
 }
 
+.header__social .header__link.active {
+  color: #111029;
+}
+
 .header__social .header__link .icon {
   margin-right: 15px;
   font-size: 16px;

@@ -43,29 +43,16 @@
 <body>
   <div class="page">
     <div class="header js-header" id="header">
-      <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic"
-            src="img/logo.svg" alt="" /></a>
-        <div class="header__social header__social_main">
-
-
-          <a class="header__link" href="#"><svg class="icon icon-dribbble">
-              <use xlink:href="img/sprite.svg#icon-dribbble"></use>
-            </svg>Funding</a>
-
-
-          <a class="header__link" href="#"><svg class="icon icon-instagram">
-              <use xlink:href="img/sprite.svg#icon-instagram"></use>
-            </svg>Ventures</a>
-
-
-          <a class="header__link" href="#"><svg class="icon icon-instagram">
-              <use xlink:href="img/sprite.svg#icon-instagram"></use>
-            </svg>Development</a>
-
-
-
-        </div><button class="header__burger js-header-burger header__burger_dark"></button>
-      </div>
+      <div class="header__center center">
+          <a class="header__logo" href="index.html"><img class="header__pic"src="img/logo.svg" alt="" /></a>
+          <div class="header__social header__social_main">
+            <a class="header__link" href="./funding.html">Funding</a>
+            <a class="header__link active" href="./ventures.html">Ventures</a>
+            <a class="header__link" href="./development.html">Development</a>
+          </div>
+          <button class="header__burger js-header-burger" style=" background:#000;"></button>
+          <use xlink:href="img/sprite.svg#icon-instagram"></use>
+        </div>
       <div class="header__wrapper js-header-wrapper">
         <div class="header__preview"><a class="header__logo" href="index.html"><img class="header__pic"
               src="img/launchpad_logo_white.png" alt="" /></a>
@@ -90,10 +77,9 @@
             </div>
           </div>
           <nav class="header__nav">
-            <a class="header__item" href="#"><span>Funding</span></a>
-            <a class="header__item" href="#"><span>Ventures</span></a>
-            <a class="header__item" href="#"><span>Development</span></a>
-            
+            <a class="header__item" href="./funding.html"><span>Funding</span></a>
+            <a class="header__item" href="./ventures.html"><span>Ventures</span></a>
+            <a class="header__item" href="./development.html"><span>Development</span></a>
           </nav>
           <div class="header__social header__social_inner"><a class="header__link" href="#"><svg
                 class="icon icon-dribbble">
@@ -207,7 +193,7 @@
                 </div>
 
               </div>
-              <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200">
+              <form  action="https://getform.io/f/f23df9cf-a5c2-4af0-bf75-396204ae3922" method="POST" class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200">
                 <div class="contacts__field field">
                   <div class="field__wrap"><input class="field__input" type="text" name="name" placeholder="Name" />
                     <div class="field__icon"><svg class="icon icon-profile">
@@ -222,16 +208,7 @@
                       </svg></div>
                   </div>
                 </div>
-                <div class="contacts__field field">
-                  <div class="field__wrap"><select class="field__select" name="question">
-                      <option>What are you working on?</option>
-                      <option>What are you working on? 2</option>
-                    </select>
-                    <div class="field__icon"><svg class="icon icon-arrows">
-                        <use xlink:href="img/sprite.svg#icon-arrows"></use>
-                      </svg></div>
-                  </div>
-                </div>
+
                 <div class="contacts__field field field_textarea">
                   <div class="field__wrap"><textarea class="field__textarea" name="message"
                       placeholder="Message"></textarea>
@@ -240,7 +217,7 @@
                       </svg></div>
                   </div>
                 </div>
-                <div class="contacts__btn" style="text-align: center;"><button class="btn btn_purple"><span class="btn__text">Let’s Talk</span><svg
+                <div class="contacts__btn" style="text-align: center;"><button class="btn btn_purple" type="submit"><span class="btn__text">Let’s Talk</span><svg
                       class="icon icon-arrow-right">
                       <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
                     </svg></button></div>
@@ -293,9 +270,9 @@
               <div class="footer__title h1">You only have one chance to make a first impression.</div>
               <div class="footer__info h4">Let’s make it an amazing one.</div>
             </div>
-            <div class="footer__menu"><a class="footer__link" href="#">Funding</a><a class="footer__link"
-                href="#">Ventures</a><a class="footer__link" href="#">Development</a><a class="footer__link"
-                href="#">About Us</a></div>
+                   <div class="footer__menu"><a class="footer__link" href="./funding.html">Funding</a><a class="footer__link"
+                href="./ventures.html">Ventures</a><a class="footer__link" href="./development.html">Development</a><a class="footer__link"
+                href="./about.html">About Us</a></div>
           </div>
           <div class="footer__bottom">
             <div class="footer__copyright">© 2021, LAUNCHPAD.</div><a class="footer__scroll js-scroll"
